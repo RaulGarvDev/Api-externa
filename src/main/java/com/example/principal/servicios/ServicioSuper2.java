@@ -1,9 +1,12 @@
-package com.example.principal;
+package com.example.principal.servicios;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.principal.entidades.SuperHero;
+import com.example.principal.repositorios.Repositorio;
 
 @Service
 public class ServicioSuper2 implements ServicioSuper{

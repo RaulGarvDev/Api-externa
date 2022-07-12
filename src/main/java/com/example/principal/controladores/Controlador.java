@@ -1,4 +1,4 @@
-package com.example.principal;
+package com.example.principal.controladores;
 
 import java.util.List;
 
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.principal.entidades.SuperHero;
+import com.example.principal.servicios.ServicioSuper;
 
 
 

@@ -1,8 +1,10 @@
-package com.example.principal;
+package com.example.principal.repositorios;
 
 
 
 import org.springframework.data.repository.CrudRepository;
+
+import com.example.principal.entidades.SuperHero;
 
 
 
